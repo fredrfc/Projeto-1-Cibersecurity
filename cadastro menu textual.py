@@ -1,5 +1,4 @@
 def cadastro_ativo_menu(dict_ativos, caminho_arquivo='arquivo.json'):
-
     try:
         id_ativo = input('Qual é o ID do novo ativo? (Deve ser um número inteiro positivo e válido): ').strip()
 
