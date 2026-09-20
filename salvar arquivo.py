@@ -5,7 +5,7 @@ def _salvar_arquivo(dict_ativos, caminho_arquivo, hostname=None):
         
         if hostname:
             print(f'\nSucesso! Ativo "{hostname}" cadastrado com sucesso!')
-        return True
+            return True
 
     except PermissionError:
         print('\nErro! O acesso ao arquivo de base de dados foi negado.')
